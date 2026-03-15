@@ -1,4 +1,4 @@
-const canvas = document.getElementById('matrix-canvas');
+const canvas = document.getElementById('rain-canvas');
 const ctx = canvas.getContext('2d');
 
 const letters = 'アイウエオカキクケコサシスセソ1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ';

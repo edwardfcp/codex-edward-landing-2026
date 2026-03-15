@@ -1,8 +1,8 @@
 :root {
   --bg: #010603;
   --bg-soft: #03140a;
-  --matrix: #53ff88;
-  --matrix-soft: #99ffbd;
+  --accent: #53ff88;
+  --accent-soft: #99ffbd;
   --text: #e8ffe9;
   --muted: #a4dcb0;
   --border: rgba(83, 255, 136, 0.25);
@@ -22,7 +22,7 @@ body {
   background: radial-gradient(circle at 20% 0%, #062312 0%, var(--bg) 45%);
 }
 
-#matrix-canvas {
+#rain-canvas {
   position: fixed;
   inset: 0;
   z-index: 0;
@@ -52,7 +52,7 @@ footer {
 .logo {
   font-family: 'Share Tech Mono', monospace;
   letter-spacing: 0.06em;
-  color: var(--matrix-soft);
+  color: var(--accent-soft);
 }
 
 main {
@@ -66,7 +66,7 @@ main {
 
 .eyebrow {
   font-family: 'Share Tech Mono', monospace;
-  color: var(--matrix-soft);
+  color: var(--accent-soft);
   letter-spacing: 0.1em;
   margin-bottom: 0.4rem;
 }
@@ -90,7 +90,7 @@ h1 span {
 
 .glitch {
   position: relative;
-  color: var(--matrix);
+  color: var(--accent);
   text-shadow: 0 0 12px rgba(83, 255, 136, 0.7);
 }
 
@@ -138,7 +138,7 @@ h1 span {
   text-decoration: none;
   font-weight: 700;
   color: #012307;
-  background: linear-gradient(120deg, var(--matrix-soft), var(--matrix));
+  background: linear-gradient(120deg, var(--accent-soft), var(--accent));
   border: 1px solid transparent;
   padding: 0.75rem 1.2rem;
   border-radius: 0.6rem;
@@ -157,7 +157,7 @@ h1 span {
 }
 
 .btn-outline {
-  color: var(--matrix);
+  color: var(--accent);
   background: rgba(2, 30, 12, 0.5);
   border-color: var(--border);
   box-shadow: none;
@@ -211,7 +211,7 @@ h1 span {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--matrix-soft);
+  color: var(--accent-soft);
   font-family: 'Share Tech Mono', monospace;
 }
 
@@ -234,7 +234,7 @@ h1 span {
   padding: 1rem;
   background: rgba(1, 20, 8, 0.65);
   font-family: 'Share Tech Mono', monospace;
-  color: var(--matrix-soft);
+  color: var(--accent-soft);
 }
 
 .terminal p {
