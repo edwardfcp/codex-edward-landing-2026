@@ -1,6 +1,6 @@
 # codex-edward-landing-2026
 
-Landing page inspirada en Matrix para presentar servicios de entrega de soluciones de IA.
+Landing page para presentar servicios de entrega de soluciones de IA.
 
 ## Ejecutar en local
 
